@@ -1,10 +1,14 @@
 import { Card } from "./components/Card";
+import { Title } from "./components/Title";
 
 function App() {
   return (
     <>
       <Card>
-        <p>Teste</p>
+        <div>
+          <img src="" alt="" />
+          <Title />
+        </div>
       </Card>
     </>
   );
