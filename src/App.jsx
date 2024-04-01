@@ -1,8 +1,11 @@
+import { Card } from "./components/Card";
 
 function App() {
   return (
     <>
-      <h1>Título Teste</h1>
+      <Card>
+        <p>Teste</p>
+      </Card>
     </>
   );
 }
