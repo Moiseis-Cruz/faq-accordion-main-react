@@ -1,7 +1,15 @@
+import styled from "styled-components"
+
 export const Card = ({children}) => {
     return(
-        <div>
+        <Container>
             {children}
-        </div>
+        </Container>
     )
 }
+
+const Container = styled.div`
+    width: 100%;
+    max-width: 992px;
+    background-color: aliceblue;
+`
