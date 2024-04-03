@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Card } from "./components/Card";
+import ImgBgDesktop from "./images/background-pattern-desktop.svg"
 
 function App() {
   return (
@@ -15,7 +16,7 @@ const Container = styled.section`
   width: 100%;
   max-width: 1440px;
   min-height: 100vh;
-  background-color: grey;
+  background: top center / contain no-repeat #e5c6f2 url(${ImgBgDesktop});
   display: flex;
   align-items: center;
   justify-content: center;
