@@ -19,4 +19,8 @@ export const GlobalStyle = createGlobalStyle`
         max-width: 1440px;
         margin: auto;
     }
+
+    ul {
+        list-style: none;
+    }
 `
