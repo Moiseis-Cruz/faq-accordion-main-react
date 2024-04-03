@@ -1,3 +1,5 @@
 export const QuestionAnswer = (props) => {
-    <p {...props} />
+    return(
+        <p {...props} />
+    )
 }
