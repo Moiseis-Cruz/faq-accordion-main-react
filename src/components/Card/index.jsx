@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import { Title } from "../Title"
 import ImgStar from "../../images/icon-star.svg"
+import { GuideSection } from "../GuideSection"
 
 export const Card = () => {
     return(
@@ -11,7 +12,9 @@ export const Card = () => {
             </CardContent>
 
             <ul>
-                
+                <GuideSection>Título 1</GuideSection>
+                <GuideSection>Título 2</GuideSection>
+                <GuideSection>Título 3</GuideSection>
             </ul>
         </Container>
     )
