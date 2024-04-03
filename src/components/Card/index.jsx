@@ -19,6 +19,9 @@ const Container = styled.div`
     width: 100%;
     height: 626px;
     background-color: aliceblue;
+    padding: 56px 66px;
+    overflow: hidden;
+    border-radius: 12px;
 `
 
 const CardContent = styled.div`
