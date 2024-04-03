@@ -2,14 +2,17 @@ import styled from "styled-components"
 import { Title } from "../Title"
 import ImgStar from "../../images/icon-star.svg"
 
-export const Card = ({children}) => {
+export const Card = () => {
     return(
         <Container>
             <CardContent>
                 <img src={ImgStar} alt="Icon Star" />
                 <Title />
             </CardContent>
-            {children}
+
+            <ul>
+                
+            </ul>
         </Container>
     )
 }
