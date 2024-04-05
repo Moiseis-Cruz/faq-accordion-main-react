@@ -1,5 +1,12 @@
+import styled from "styled-components"
+
 export const Question = (props) => {
     return(
-        <h3 {...props} />
+        <Topic {...props} />
     )
 }
+
+const Topic = styled.h3`
+    font-size: 20px;
+    color: hsl(292, 42%, 14%);
+`
