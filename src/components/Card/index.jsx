@@ -44,7 +44,7 @@ export const Card = () => {
 }
 
 const Container = styled.div`
-    max-width: 992px;
+    max-width: 600px;
     width: 100%;
     height: 626px;
     background-color: aliceblue;
@@ -56,4 +56,5 @@ const Container = styled.div`
 const CardContent = styled.div`
     display: flex;
     gap: 21px;
+    margin-bottom: 66px;
 `
