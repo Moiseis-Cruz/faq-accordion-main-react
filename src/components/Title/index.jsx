@@ -9,4 +9,5 @@ export const Title = () => {
 const FAQTitle = styled.h1`
     color: hsl(292, 42%, 14%);
     font-size: 48px;
+    font-weight: 700;
 `
