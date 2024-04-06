@@ -1,7 +1,11 @@
-import { hover } from "@testing-library/user-event/dist/hover"
+import styled from "styled-components"
 
 export const GuideSection = (props) => {
     return(
-        <li style={{}} {...props} />
+        <GuideItem style={{}} {...props} />
     )
 }
+
+const GuideItem = styled.li`
+    background-color: grey;
+`
