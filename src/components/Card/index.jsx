@@ -27,6 +27,10 @@ const FaqData = [
 export const Card = () => {
     return(
         <Container>
+            <CardContent>
+                <img src={ImgStar} alt="Icon Star" />
+                <Title />
+            </CardContent>
             {
                 FaqData.map((item, index) => {
                     return(
@@ -61,7 +65,7 @@ const CardContent = styled.div`
 `
 
 /*
-<CardContent>
+            <CardContent>
                 <img src={ImgStar} alt="Icon Star" />
                 <Title />
             </CardContent>
