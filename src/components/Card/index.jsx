@@ -4,6 +4,7 @@ import ImgStar from "../../images/icon-star.svg"
 import { GuideSection } from "../GuideSection"
 import { Question } from "../Question"
 import { QuestionAnswer } from "../QuestionAnswer"
+import { useState } from "react"
 
 const FaqData = [
     {
@@ -25,6 +26,13 @@ const FaqData = [
 ]
 
 export const Card = () => {
+
+    const [ activeTab, setActiveTab ] = useState(null);
+
+    const handleTabClick = (index) => {
+        setActiveTab(index === activeTab ? null : index)
+    }
+
     return(
         <Container>
             <CardContent>
@@ -35,10 +43,10 @@ export const Card = () => {
                 FaqData.map((item, index) => {
                     return(
                         <ul key={index}>
-                            <GuideSection>
+                            <GuideSection onClick={() => handleTabClick(index)}>
                                 <Question>{item.question}</Question>
 
-                                <QuestionAnswer>{item.answer}</QuestionAnswer>
+                                {activeTab === index && <QuestionAnswer>{item.answer}</QuestionAnswer>}
                             </GuideSection>
                         </ul>
                     )
@@ -51,9 +59,9 @@ export const Card = () => {
 const Container = styled.div`
     max-width: 600px;
     width: 100%;
-    height: 626px;
+    height: 490px;
     background-color: hsl(0, 0%, 100%);
-    padding: 46px 56px;
+    padding: 46px 26px;
     overflow: hidden;
     border-radius: 12px;
 `
