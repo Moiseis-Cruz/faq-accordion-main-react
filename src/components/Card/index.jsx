@@ -63,37 +63,3 @@ const CardContent = styled.div`
     gap: 21px;
     margin-bottom: 66px;
 `
-
-/*
-            <CardContent>
-                <img src={ImgStar} alt="Icon Star" />
-                <Title />
-            </CardContent>
-
-            <ul>
-                <GuideSection>
-                    <Question>What is Frontend Mentor, and how will it help me?</Question>
-
-                    <QuestionAnswer>Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for portfolio building.</QuestionAnswer>
-                </GuideSection>
-
-                <GuideSection>
-                    <Question>Is Frontend Mentor free?</Question>
-
-                    <QuestionAnswer>Yes, Frontend Mentor offers both free and premium coding challenges, with the free option providing access to a range of projects suitable for all skill levels.</QuestionAnswer>
-                </GuideSection>
-
-                <GuideSection>
-                    <Question>Can I use Frontend Mentor projects in my portfolio?</Question>
-
-                    <QuestionAnswer>Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent way to showcase your skills to potential employers!</QuestionAnswer>
-                </GuideSection>
-
-                <GuideSection>
-                    <Question>How can I get help if I'm stuck on a Frontend Mentor challenge?</Question>
-
-                    <QuestionAnswer>The best place to get help is inside Frontend Mentor's Discord community. There's a help channel where you can ask questions and seek support from other community members.</QuestionAnswer>
-                </GuideSection>
-
-            </ul>
-*/
