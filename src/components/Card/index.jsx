@@ -8,7 +8,29 @@ import { QuestionAnswer } from "../QuestionAnswer"
 export const Card = () => {
     return(
         <Container>
-            <CardContent>
+            
+        </Container>
+    )
+}
+
+const Container = styled.div`
+    max-width: 600px;
+    width: 100%;
+    height: 626px;
+    background-color: aliceblue;
+    padding: 56px 66px;
+    overflow: hidden;
+    border-radius: 12px;
+`
+
+const CardContent = styled.div`
+    display: flex;
+    gap: 21px;
+    margin-bottom: 66px;
+`
+
+/*
+<CardContent>
                 <img src={ImgStar} alt="Icon Star" />
                 <Title />
             </CardContent>
@@ -39,22 +61,4 @@ export const Card = () => {
                 </GuideSection>
 
             </ul>
-        </Container>
-    )
-}
-
-const Container = styled.div`
-    max-width: 600px;
-    width: 100%;
-    height: 626px;
-    background-color: aliceblue;
-    padding: 56px 66px;
-    overflow: hidden;
-    border-radius: 12px;
-`
-
-const CardContent = styled.div`
-    display: flex;
-    gap: 21px;
-    margin-bottom: 66px;
-`
+*/
