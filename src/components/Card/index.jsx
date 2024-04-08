@@ -27,7 +27,19 @@ const FaqData = [
 export const Card = () => {
     return(
         <Container>
-            
+            {
+                FaqData.map((item, index) => {
+                    return(
+                        <ul key={index}>
+                            <GuideSection>
+                                <Question>{item.question}</Question>
+
+                                <QuestionAnswer>{item.answer}</QuestionAnswer>
+                            </GuideSection>
+                        </ul>
+                    )
+                })
+            }
         </Container>
     )
 }
