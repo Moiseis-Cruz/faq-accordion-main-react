@@ -52,8 +52,8 @@ const Container = styled.div`
     max-width: 600px;
     width: 100%;
     height: 626px;
-    background-color: aliceblue;
-    padding: 56px 66px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 46px 56px;
     overflow: hidden;
     border-radius: 12px;
 `
