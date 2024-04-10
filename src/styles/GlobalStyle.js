@@ -23,6 +23,12 @@ export const GlobalStyle = createGlobalStyle`
     }
 `
 
+export const FAQTitle = styled.h1`
+    color: hsl(292, 42%, 14%);
+    font-size: 48px;
+    font-weight: 700;
+`
+
 export const GuideItem = styled.li`
     width: 100%;
     border-bottom: 3px solid hsl(275, 100%, 97%);
