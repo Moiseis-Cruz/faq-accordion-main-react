@@ -37,6 +37,12 @@ export const GuideItem = styled.li`
     cursor: pointer;
 `
 
+export const Topic = styled.h3`
+    font-size: 16px;
+    font-weight: 600;
+    color: hsl(292, 42%, 14%);
+`
+
 export const Description = styled.p`
     font-size: 16px;
     font-weight: 400;
