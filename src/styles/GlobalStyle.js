@@ -36,3 +36,10 @@ export const GuideItem = styled.li`
     min-height: 54px;
     cursor: pointer;
 `
+
+export const Description = styled.p`
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(292, 16%, 49%);
+    margin-top: 20px;
+`
