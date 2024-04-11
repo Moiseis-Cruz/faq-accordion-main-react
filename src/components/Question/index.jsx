@@ -1,13 +1,7 @@
-import styled from "styled-components"
+import { Topic } from "../../styles/GlobalStyle"
 
 export const Question = (props) => {
     return(
         <Topic {...props} />
     )
 }
-
-const Topic = styled.h3`
-    font-size: 16px;
-    font-weight: 600;
-    color: hsl(292, 42%, 14%);
-`
