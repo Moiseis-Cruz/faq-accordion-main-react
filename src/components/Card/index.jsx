@@ -69,5 +69,5 @@ const Container = styled.div`
 const CardContent = styled.div`
     display: flex;
     gap: 21px;
-    margin-bottom: 66px;
+    margin-bottom: 36px;
 `
