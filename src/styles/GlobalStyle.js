@@ -29,18 +29,22 @@ export const FAQTitle = styled.h1`
     font-weight: 700;
 `
 
-export const GuideItem = styled.li`
-    width: 100%;
-    border-bottom: 3px solid hsl(275, 100%, 97%);
-    background-color: #e6e6e6;
-    min-height: 54px;
-    cursor: pointer;
-`
-
 export const Topic = styled.h3`
     font-size: 16px;
     font-weight: 600;
     color: hsl(292, 42%, 14%);
+    padding-top: 10px;
+`
+
+export const GuideItem = styled.li`
+    width: 100%;
+    border-bottom: 3px solid hsl(275, 100%, 97%);
+    /* background-color: #e6e6e6; */
+    min-height: 54px;
+    cursor: pointer;
+    &:hover ${Topic}{
+        color: rgb(173,40,235);
+    }
 `
 
 export const Description = styled.p`
@@ -48,4 +52,5 @@ export const Description = styled.p`
     font-weight: 400;
     color: hsl(292, 16%, 49%);
     margin-top: 20px;
+    padding-bottom: 10px;
 `
