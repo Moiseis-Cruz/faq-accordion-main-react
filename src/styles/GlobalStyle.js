@@ -1,4 +1,5 @@
 import { createGlobalStyle, styled } from "styled-components";
+import BgPlus  from "../images/icon-plus.svg";
 
 export const GlobalStyle = createGlobalStyle`
     * {
@@ -39,7 +40,7 @@ export const Topic = styled.h3`
 export const GuideItem = styled.li`
     width: 100%;
     border-bottom: 3px solid hsl(275, 100%, 97%);
-    /* background-color: #e6e6e6; */
+    background: no-repeat right top 8px url(${BgPlus});
     min-height: 54px;
     cursor: pointer;
     &:hover ${Topic}{

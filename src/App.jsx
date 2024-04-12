@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Card } from "./components/Card";
-import ImgBgDesktop from "./images/background-pattern-desktop.svg"
+import ImgBgDesktop from "./images/background-pattern-desktop.svg";
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <Card/>
     </Container>
   );
-}
+};
 
 export default App;
 

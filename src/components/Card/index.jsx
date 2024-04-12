@@ -1,10 +1,10 @@
-import styled from "styled-components"
-import { Title } from "../Title"
-import ImgStar from "../../images/icon-star.svg"
-import { GuideSection } from "../GuideSection"
-import { Question } from "../Question"
-import { QuestionAnswer } from "../QuestionAnswer"
-import { useState } from "react"
+import styled from "styled-components";
+import { Title } from "../Title";
+import ImgStar from "../../images/icon-star.svg";
+import { GuideSection } from "../GuideSection";
+import { Question } from "../Question";
+import { QuestionAnswer } from "../QuestionAnswer";
+import { useState } from "react";
 
 const FaqData = [
     {
@@ -23,7 +23,7 @@ const FaqData = [
         question: "How can I get help if I'm stuck on a Frontend Mentor challenge?",
         answer: "The best place to get help is inside Frontend Mentor's Discord community. There's a help channel where you can ask questions and seek support from other community members."
     }
-]
+];
 
 export const Card = () => {
 
@@ -31,7 +31,7 @@ export const Card = () => {
 
     const handleTabClick = (index) => {
         setActiveTab(index === activeTab ? null : index)
-    }
+    };
 
     return(
         <Container>
@@ -54,7 +54,7 @@ export const Card = () => {
             }
         </Container>
     )
-}
+};
 
 const Container = styled.div`
     max-width: 600px;
