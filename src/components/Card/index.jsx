@@ -43,7 +43,7 @@ export const Card = () => {
                 FaqData.map((item, index) => {
                     return(
                         <ul key={index}>
-                            <GuideSection onClick={() => handleTabClick(index)}>
+                            <GuideSection expanded={activeTab === index} onClick={() => handleTabClick(index)}>
                                 <Question>{item.question}</Question>
 
                                 {activeTab === index && <QuestionAnswer>{item.answer}</QuestionAnswer>}
