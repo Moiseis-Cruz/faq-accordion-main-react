@@ -27,7 +27,7 @@ export const GlobalStyle = createGlobalStyle`
 
 export const FAQTitle = styled.h1`
     color: hsl(292, 42%, 14%);
-    font-size: 48px;
+    font-size: 56px;
     font-weight: 700;
 `
 
@@ -35,13 +35,15 @@ export const Topic = styled.h3`
     font-size: 16px;
     font-weight: 600;
     color: hsl(292, 42%, 14%);
-    padding-top: 10px;
+    /* margin-top: 20px; */
 `
 
 export const GuideItem = styled.li`
     width: 100%;
     border-bottom: 3px solid hsl(275, 100%, 97%);
-    background: no-repeat right top url(${props => (props.expanded ? BgMinus : BgPlus)});
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: no-repeat right top 15px url(${props => (props.expanded ? BgMinus : BgPlus)});
     min-height: 54px;
     cursor: pointer;
     &:hover ${Topic}{
@@ -55,4 +57,6 @@ export const Description = styled.p`
     color: hsl(292, 16%, 49%);
     margin-top: 20px;
     padding-bottom: 10px;
+    /* background-color: red; */
+    /* width: 95%; */
 `
