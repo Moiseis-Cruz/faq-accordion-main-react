@@ -20,7 +20,7 @@ const FaqData = [
         answer: "Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent way to showcase your skills to potential employers!"
     },
     {
-        question: "How can I get help if I'm stuck on a Frontend Mentor challenge?",
+        question: "How can I get help if I'm stuck on a challenge?",
         answer: "The best place to get help is inside Frontend Mentor's Discord community. There's a help channel where you can ask questions and seek support from other community members."
     }
 ];
@@ -59,9 +59,9 @@ export const Card = () => {
 const Container = styled.div`
     max-width: 600px;
     width: 100%;
-    height: 490px;
+    min-height: 490px;
     background-color: hsl(0, 0%, 100%);
-    padding: 46px 26px;
+    padding: 46px 36px;
     overflow: hidden;
     border-radius: 12px;
 `
@@ -69,5 +69,5 @@ const Container = styled.div`
 const CardContent = styled.div`
     display: flex;
     gap: 21px;
-    margin-bottom: 36px;
+    margin-bottom: 28px;
 `
