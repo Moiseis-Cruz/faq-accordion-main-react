@@ -35,7 +35,6 @@ export const Topic = styled.h3`
     font-size: 16px;
     font-weight: 600;
     color: hsl(292, 42%, 14%);
-    background-color: palevioletred;
     @media (max-width: 425px) {
         width: 220px;
     }
@@ -59,4 +58,8 @@ export const Description = styled.p`
     color: hsl(292, 16%, 49%);
     margin-top: 20px;
     padding-bottom: 10px;
+    @media (max-width: 425px) {
+        width: 270px;
+        font-size: 14px;
+    }
 `
