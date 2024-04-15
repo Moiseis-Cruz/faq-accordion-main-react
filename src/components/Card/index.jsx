@@ -64,6 +64,10 @@ const Container = styled.div`
     padding: 46px 36px;
     overflow: hidden;
     border-radius: 12px;
+    @media (max-width: 425px) {
+        width: 327px;
+        padding: 23px 18px;
+    }
 `
 
 const CardContent = styled.div`
