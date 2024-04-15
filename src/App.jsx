@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Card } from "./components/Card";
 import ImgBgDesktop from "./images/background-pattern-desktop.svg";
+import ImgBgMobile from "./images/background-pattern-mobile.svg"
 
 function App() {
   return (
@@ -20,4 +21,7 @@ const Container = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
+  @media (max-width: 375px) {
+    background: top center / contain no-repeat #e5c6f2 url(${ImgBgMobile});
+  }
 `
