@@ -25,5 +25,6 @@ const Container = styled.section`
   padding: 20px;
   @media (max-width: 375px) {
     background: top center / contain no-repeat #e5c6f2 url(${ImgBgMobile});
+    padding: 0;
   }
 `
