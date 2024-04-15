@@ -35,6 +35,10 @@ export const Topic = styled.h3`
     font-size: 16px;
     font-weight: 600;
     color: hsl(292, 42%, 14%);
+    background-color: palevioletred;
+    @media (max-width: 425px) {
+        width: 220px;
+    }
 `
 
 export const GuideItem = styled.li`
