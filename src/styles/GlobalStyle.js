@@ -35,13 +35,11 @@ export const Topic = styled.h3`
     font-size: 16px;
     font-weight: 600;
     color: hsl(292, 42%, 14%);
-    /* margin-top: 20px; */
 `
 
 export const GuideItem = styled.li`
     width: 100%;
     padding: 20px 0;
-    /* padding-bottom: 20px; */
     background: no-repeat right top 15px url(${props => (props.expanded ? BgMinus : BgPlus)});
     min-height: 54px;
     border-bottom: 3px solid hsl(275, 100%, 97%);
@@ -57,6 +55,4 @@ export const Description = styled.p`
     color: hsl(292, 16%, 49%);
     margin-top: 20px;
     padding-bottom: 10px;
-    /* background-color: red; */
-    /* width: 95%; */
 `
