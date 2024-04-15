@@ -40,13 +40,13 @@ export const Topic = styled.h3`
 
 export const GuideItem = styled.li`
     width: 100%;
-    border-bottom: 3px solid hsl(275, 100%, 97%);
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 0;
+    /* padding-bottom: 20px; */
     background: no-repeat right top 15px url(${props => (props.expanded ? BgMinus : BgPlus)});
     min-height: 54px;
+    border-bottom: 3px solid hsl(275, 100%, 97%);
     cursor: pointer;
-    &:hover ${Topic}{
+    &:active ${Topic}{
         color: rgb(173,40,235);
     }
 `
