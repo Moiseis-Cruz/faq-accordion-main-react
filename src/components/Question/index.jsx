@@ -1,4 +1,4 @@
-import { Topic } from "../../styles/GlobalStyle";
+import { Topic } from "../../styles/Styles";
 
 export const Question = (props) => {
     return(
