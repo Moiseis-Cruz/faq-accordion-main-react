@@ -1,4 +1,4 @@
-import { Description } from "../../styles/GlobalStyle";
+import { Description } from "../../styles/Styles";
 
 export const QuestionAnswer = (props) => {
     return(
