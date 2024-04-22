@@ -1,4 +1,4 @@
-import { FAQTitle } from "../../styles/GlobalStyle";
+import { FAQTitle } from "../../styles/Styles";
 
 export const Title = () => {
     return(
