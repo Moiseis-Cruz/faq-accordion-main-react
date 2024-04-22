@@ -1,4 +1,4 @@
-import { GuideItem } from "../../styles/GlobalStyle";
+import { GuideItem } from "../../styles/Styles";
 
 export const GuideSection = (props) => {
     return(
