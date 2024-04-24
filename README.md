@@ -4,6 +4,8 @@
 
 ## Meus prinipais desafios:
 
+Meu principal desafio foi em elaborar a lógica para fazer a guia, que se inicia retraida, se expandir para mostrar informções sobre dúvidas.
+
 ## Tecnologias Utilzadas:
 
 - HTML;
