@@ -12,8 +12,9 @@ export const Topic = styled.h3`
     font-size: 16px;
     font-weight: 600;
     color: hsl(292, 42%, 14%);
+    width: 90%;
     @media (max-width: 425px) {
-        width: 220px;
+        width: 80%;
     }
 `
 
