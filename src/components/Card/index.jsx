@@ -1,10 +1,10 @@
-import styled from "styled-components";
 import { Title } from "../Title";
 import ImgStar from "../../images/icon-star.svg";
 import { GuideSection } from "../GuideSection";
 import { Question } from "../Question";
 import { QuestionAnswer } from "../QuestionAnswer";
 import { useState } from "react";
+import { Container, CardContent } from "../../styles/Styles";
 
 const FaqData = [
     {
@@ -55,23 +55,3 @@ export const Card = () => {
         </Container>
     )
 };
-
-const Container = styled.div`
-    max-width: 600px;
-    width: 100%;
-    min-height: 490px;
-    background-color: hsl(0, 0%, 100%);
-    padding: 46px 36px;
-    overflow: hidden;
-    border-radius: 12px;
-    @media (max-width: 425px) {
-        width: 327px;
-        padding: 23px 18px;
-    }
-`
-
-const CardContent = styled.div`
-    display: flex;
-    gap: 21px;
-    margin-bottom: 28px;
-`
