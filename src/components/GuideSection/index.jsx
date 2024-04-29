@@ -4,4 +4,4 @@ export const GuideSection = (props) => {
     return(
         <GuideItem {...props} />
     )
-};z
+};
