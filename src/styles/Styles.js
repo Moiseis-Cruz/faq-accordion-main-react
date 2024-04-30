@@ -41,7 +41,7 @@ export const Topic = styled.h3`
 export const GuideItem = styled.li`
     width: 100%;
     padding: 20px 0;
-    background: no-repeat right top 15px url(${props => (props.expanded ? BgMinus : BgPlus)});
+    background: no-repeat right top 15px url(${props => props.$expanded ? BgMinus : BgPlus});
     min-height: 54px;
     border-bottom: 3px solid hsl(275, 100%, 97%);
     cursor: pointer;
