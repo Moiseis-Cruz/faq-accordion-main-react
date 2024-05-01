@@ -16,7 +16,7 @@ export default App;
 const Container = styled.section`
   width: 100%;
   max-width: 1440px;
-  min-height: 100vh;
+  min-height: 100dvh;
   background: top center / contain no-repeat #e5c6f2 url(${ImgBgDesktop});
   display: flex;
   align-items: center;
