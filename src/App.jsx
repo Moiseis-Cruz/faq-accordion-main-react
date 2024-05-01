@@ -5,15 +5,15 @@ import ImgBgMobile from "./images/background-pattern-mobile.svg"
 
 function App() {
   return (
-    <Container>
+    <MainContainer>
       <Card/>
-    </Container>
+    </MainContainer>
   );
 };
 
 export default App;
 
-const Container = styled.section`
+const MainContainer = styled.section`
   width: 100%;
   max-width: 1440px;
   min-height: 100dvh;
