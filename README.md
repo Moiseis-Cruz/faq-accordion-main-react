@@ -13,4 +13,4 @@ Meu principal desafio foi em elaborar a lógica para fazer a guia, que se inicia
 - React.js;
 - Styled Componets;
 
-<img src="" alt="" />
+<img src="./src/assets/FAQs.gif" alt="gif FAQ" />
