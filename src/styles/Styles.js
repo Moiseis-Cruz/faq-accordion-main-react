@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import BgPlus  from "../images/icon-plus.svg";
-import BgMinus from "../images/icon-minus.svg";
-import ImgBgDesktop from "../images/background-pattern-desktop.svg";
-import ImgBgMobile from "../images/background-pattern-mobile.svg";
+import BgPlus  from "../assets/images/icon-plus.svg";
+import BgMinus from "../assets/images/icon-minus.svg";
+import ImgBgDesktop from "../assets/images/background-pattern-desktop.svg";
+import ImgBgMobile from "../assets/images/background-pattern-mobile.svg";
 
 export const MainContainer = styled.section`
     width: 100%;

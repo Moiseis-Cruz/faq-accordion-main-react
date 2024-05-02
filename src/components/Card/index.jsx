@@ -1,5 +1,5 @@
 import { Title } from "../Title";
-import ImgStar from "../../images/icon-star.svg";
+import ImgStar from "../../assets/images/icon-star.svg";
 import { GuideSection } from "../GuideSection";
 import { Question } from "../Question";
 import { QuestionAnswer } from "../QuestionAnswer";
