@@ -5,6 +5,7 @@ import { Question } from "../Question";
 import { QuestionAnswer } from "../QuestionAnswer";
 import { useState } from "react";
 import { Container, CardContent } from "../../styles/Styles";
+import { FaqData } from "./Card.mock";
 
 export const Card = () => {
 
